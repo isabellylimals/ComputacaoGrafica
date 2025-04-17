@@ -15,7 +15,7 @@ int main() {
     for (y = 0; y < altura; y++) {
         for (x = 0; x < largura; x++) {
             if (y == centroY - 10 && x >= centroX - 10 && x <= centroX + 10) {
-                fprintf(fp, "128 0 200 ");  
+                fprintf(fp, "128 0 200 ");  //pinta  a linha
             }
 
             
