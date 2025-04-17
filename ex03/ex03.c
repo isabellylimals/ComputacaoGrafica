@@ -18,8 +18,8 @@ for(i = 0; i < linha; i++){
 }
 for(i = 0; i < linha; i++){
     for(j = 0; j < coluna; j++){
-
-        if(i==)
+        
+        fprintf(fp, "%d %d %d ", 255, 255, 255);
     }
     fprintf(fp, "\n");
 }
