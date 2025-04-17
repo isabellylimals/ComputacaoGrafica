@@ -1,5 +1,7 @@
+//OBS: APROVEITEI COLOQUEI DOIS EXERCICIOS
 //Implemente uma função que altera o valor de um pixel da imagem.
 
+//Codifique uma função que salva a imagem no formato PPM
 #include <stdio.h>  
 #include <stdlib.h>  
 #define LARGURA 100
