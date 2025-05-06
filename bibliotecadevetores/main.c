@@ -18,6 +18,13 @@ int main(){
     printf("O vetor resultante eh: [%d,%d]\n",res1[0],res1[1]);
     printf("O vetor resultante eh: [%d,%d,%d]\n",res2[0],res2[1],res2[2]);
     printf("O vetor resultante eh: [%d,%d,%d]\n",res3[0],res3[1],res3[2]);
+    int soma=0;
+    int i;
+    for(i=0; i<50; i++){
+        
+        soma= i + soma;
+    }
+    printf("Resultado da soma: %d\n", soma);
     return 0;
 
 }
